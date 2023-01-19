@@ -21,6 +21,7 @@ html, body{
     font-size: 16px;
     line-height: 26px;
     color: #727272;
+    margin: 0px;
 
 }
 .primary-button{
@@ -38,6 +39,7 @@ html, body{
 }
 /*Navbar Styling*/
 .navbar{
+    padding-top: 50px;
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -52,7 +54,7 @@ ul{
 }
 ul li{
     list-style: none;
-    padding-left: 20px;
+    padding-left: 50px;
 }
 ul li a{
     text-decoration: none;
@@ -190,4 +192,75 @@ ul li a{
 }
 .experience p{
     padding-top: 10px;
+}
+/*Facts Styling*/
+
+.facts{
+    margin-top: 130px;
+    margin-bottom: 180px;
+}
+.facts h3{
+    margin-bottom: 24px;
+}
+.fact_grid{
+    display: grid;
+    grid-template-columns: repeat(4, 242px);
+    text-align: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    margin-top: 100px;
+}
+.single_fact{
+    padding: 45px 0px 35px 0px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+.single_fact img{
+    width: 45.22px;
+    height: 45.22px;
+    margin: 0px;
+}
+
+.single_fact h3{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+    margin: 10px 0px;
+}
+
+.single_fact p{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 0px;
+
+    color: #727272;
+    
+}
+
+/**/
+
+.sponsers_wrapper .call-to-action{
+    padding: 0px 449px 50px;
+    text-align: center;
+}
+.sponsers_wrapper .call-to-action p{
+    
+}
+.sponser_grid{
+    display: grid;
+    grid-template-columns: repeat(5, 165px);
+    justify-content: space-between;
+    justify-items: center;
+}
+
+/**/
+
+.footer .container{
+    margin: 130px auto 254px auto;
+    padding: 38px 0px;
+    text-align: center;
+    background: #FFF4E7;
+    border-radius: 8px;
 }
