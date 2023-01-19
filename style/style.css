@@ -1,0 +1,86 @@
+/*Global Styling*/
+.container{
+    width: 1440px;
+    margin: 0px auto;
+    font-family: 'Work Sans';
+    font-style: normal;
+}
+.primary-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+
+}
+.primary-para{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+
+}
+.primary-button{
+    text-align: center;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    border: 0px;
+}
+/*Navbar Styling*/
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.navbar_wrapper{
+    
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    text-decoration: none;
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding-left: 20px;
+}
+ul li a{
+    text-decoration: none;
+}
+
+/*Hero Styling*/
+.hero{
+    background-color: hero;
+}
+.hero_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.call-to-action{
+    padding: 100px 290px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero_wrapper .primary-title{
+    font-size: 64px;
+    text-align: center;
+    margin: 0px;
+
+}
+.hero_wrapper .primary-para{
+    text-align: center;
+
+}
+.hero_wrapper img{
+    height: 700px;
+    border-radius: 8px;
+    margin-bottom: 50px 0px;
+}
