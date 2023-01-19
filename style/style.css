@@ -1,4 +1,9 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
 /*Global Styling*/
+
 .container{
     width: 1440px;
     margin: 0px auto;
@@ -9,7 +14,7 @@
     font-weight: 700;
     font-size: 45px;
     color: #131313;
-
+    margin: 0px;
 }
 .primary-para{
     font-weight: 400;
@@ -52,7 +57,9 @@ ul li{
 ul li a{
     text-decoration: none;
 }
-
+.navbar, .hero{
+    background: rgba(255, 144, 14, 0.1);
+}
 /*Hero Styling*/
 .hero{
     background-color: hero;
@@ -83,4 +90,34 @@ ul li a{
     height: 700px;
     border-radius: 8px;
     margin-bottom: 50px 0px;
+}
+/*quicklist styling*/
+
+.quicklist_wrapper{
+    display: flex;
+    padding: 85px 60px;
+    align-items: center;
+}
+
+.quicklist_wrapper .left{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+
+}
+.quicklist_wrapper .call-to-action{
+    padding: 50px;
+    align-items: flex-start;
+}
+.quicklist_wrapper .left img{
+    height: 342px;
+    width: 342px;
+}
+
+.span_title1{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
 }
